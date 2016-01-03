@@ -8,6 +8,7 @@
   },
   "author": "Tholle <emtholin@gmail.com>",
   "license": "MIT",
+  "repository": "EmilTholin/gmail-api-parse-message",
   "dependencies": {
     "atob": "^2.0.0"
   },

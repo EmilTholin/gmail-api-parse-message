@@ -1,0 +1,18 @@
+{
+  "name": "gmail-api-parse-message",
+  "version": "1.0.0",
+  "description": "Parses the response from the Gmail API's GET message method",
+  "main": "lib",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Tholle <emtholin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "atob": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}

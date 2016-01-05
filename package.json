@@ -9,11 +9,11 @@
   "author": "Tholle <emtholin@gmail.com>",
   "license": "MIT",
   "repository": "EmilTholin/gmail-api-parse-message",
-  "dependencies": {
-    "atob": "^2.0.0"
-  },
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "base-64": "^0.1.0"
   }
 }

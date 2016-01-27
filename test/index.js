@@ -3,6 +3,7 @@ var parseMessage = require('../lib');
 var plainTextMessage = require('./messages/plainTextMessage');
 var multipartAlternativeMessage = require('./messages/multipartAlternativeMessage');
 var multipartAlternativeWithAttachmentsMessage = require('./messages/multipartAlternativeWithAttachmentsMessage');
+var multipartAlternativeDraft = require('./messages/multipartAlternativeDraft');
 
 describe('#parse', function() {
   it('can parse a plain text message', function() {
@@ -21,5 +22,11 @@ describe('#parse', function() {
     parsedMessage.textPlain.should.equal('cool *stuff*\r\n');
     parsedMessage.attachments.should.have.deep.property('[0].filename', 'a3Ln90e_460s.jpg');
     parsedMessage.attachments.should.have.deep.property('[1].filename', 'feelthebern.jpg');
+  });
+
+  it('can parse a multipart alternative draft', function () {
+    var parsedDraft = parseMessage(multipartAlternativeDraft.message);
+    parsedDraft.textHtml.should.equal('<div dir="ltr">Can it parse <b>draft </b>now? Sure can!</div>\r\n');
+    parsedDraft.textPlain.should.equal('Can it parse *draft *now? Sure can!\r\n');
   });
 });

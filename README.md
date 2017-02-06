@@ -8,7 +8,7 @@ var rp = require('request-promise');
 var parseMessage = require('gmail-api-parse-message');
 
 rp({
-  uri: 'https://www.googleapis.com/gmail/v1/users/me/messages/{MESSAGE_ID}?access_token={YOUR_API_KEY}',
+  uri: 'https://www.googleapis.com/gmail/v1/users/me/messages/{MESSAGE_ID}?access_token={ACCESS_TOKEN}',
   json: true
 }).then(function (response) {
   var parsedMessage = parseMessage(response);

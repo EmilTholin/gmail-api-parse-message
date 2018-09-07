@@ -1,3 +1,5 @@
+[![npm][npm]][npm-url]
+
 # gmail-api-parse-message
 Parses the response from the Gmail API's GET message method.
 
@@ -53,3 +55,6 @@ rp({
 
 ## Licence
 MIT
+
+[npm]: https://img.shields.io/npm/v/gmail-api-parse-message.svg
+[npm-url]: https://npmjs.com/package/gmail-api-parse-message

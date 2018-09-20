@@ -1,6 +1,6 @@
 {
   "name": "gmail-api-parse-message",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Parses the response from the Gmail API's GET message method",
   "main": "lib",
   "scripts": {
@@ -10,6 +10,7 @@
   "license": "MIT",
   "repository": "EmilTholin/gmail-api-parse-message",
   "dependencies": {
-    "base-64": "^0.1.0"
+    "base-64": "^0.1.0",
+    "addressparser": "1.0.1"
   }
 }

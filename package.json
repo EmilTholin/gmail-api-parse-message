@@ -10,6 +10,7 @@
   "license": "MIT",
   "repository": "EmilTholin/gmail-api-parse-message",
   "dependencies": {
-    "base-64": "^0.1.0"
+    "addressparser": "1.0.1",
+    "base-64": "0.1.0"
   }
 }

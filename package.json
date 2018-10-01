@@ -1,6 +1,6 @@
 {
   "name": "gmail-api-parse-message",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Parses the response from the Gmail API's GET message method",
   "main": "lib",
   "scripts": {

@@ -28,10 +28,10 @@ rp({
   //     size: 100446,
   //     attachmentId: '{ATTACHMENT_ID}',
   //     headers: {
-  //       content-type: 'image/jpeg; name="example.jpg"',
-  //       content-description: 'example.jpg',
-  //       content-transfer-encoding": 'base64',
-  //       content-id: '...',
+  //       'content-type': 'image/jpeg; name="example.jpg"',
+  //       'content-description': 'example.jpg',
+  //       'content-transfer-encoding': 'base64',
+  //       'content-id': '...',
   //       ...
   //     }
   //   }],
@@ -41,10 +41,10 @@ rp({
   //     size: 5551,
   //     attachmentId: '{ATTACHMENT_ID}',
   //     headers: {
-  //       content-type: 'image/jpeg; name="example.png"',
-  //       content-description: 'example.png',
-  //       content-transfer-encoding": 'base64',
-  //       content-id: '...',
+  //       'content-type': 'image/jpeg; name="example.png"',
+  //       'content-description': 'example.png',
+  //       'content-transfer-encoding': 'base64',
+  //       'content-id': '...',
   //       ...
   //     }
   //   }],

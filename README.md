@@ -26,13 +26,27 @@ rp({
   //     filename: 'example.jpg',
   //     mimeType: 'image/jpeg',
   //     size: 100446,
-  //     attachmentId: '{ATTACHMENT_ID}' 
+  //     attachmentId: '{ATTACHMENT_ID}',
+  //     headers: {
+  //       content-type: 'image/jpeg; name="example.jpg"',
+  //       content-description: 'example.jpg',
+  //       content-transfer-encoding": 'base64',
+  //       content-id: '...',
+  //       ...
+  //     }
   //   }],
   //   inline: [{ 
   //     filename: 'example.png',
   //     mimeType: 'image/png',
   //     size: 5551,
-  //     attachmentId: '{ATTACHMENT_ID}' 
+  //     attachmentId: '{ATTACHMENT_ID}',
+  //     headers: {
+  //       content-type: 'image/jpeg; name="example.png"',
+  //       content-description: 'example.png',
+  //       content-transfer-encoding": 'base64',
+  //       content-id: '...',
+  //       ...
+  //     }
   //   }],
   //   headers: {
   //     subject: 'Example subject',

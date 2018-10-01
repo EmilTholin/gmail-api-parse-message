@@ -28,6 +28,12 @@ rp({
   //     size: 100446,
   //     attachmentId: '{ATTACHMENT_ID}' 
   //   }],
+  //   inline: [{ 
+  //     filename: 'example.png',
+  //     mimeType: 'image/png',
+  //     size: 5551,
+  //     attachmentId: '{ATTACHMENT_ID}' 
+  //   }],
   //   headers: {
   //     subject: 'Example subject',
   //     from: 'Example Name <example@gmail.com>',
